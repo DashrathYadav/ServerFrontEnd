@@ -1,0 +1,22 @@
+.NavBar--container{
+    width:100vw;
+    background-color: lightblue;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 5px;
+
+}
+
+.NavBar--nav{
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.NavBar--button
+{
+   padding: 15px;
+   cursor: pointer;
+}

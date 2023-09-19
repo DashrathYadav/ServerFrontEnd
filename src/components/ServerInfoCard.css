@@ -1,0 +1,16 @@
+.ServerInfoCard--container{
+    margin: 10px;
+    box-sizing: border-box;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 20px 40px;
+}
+.ServerInfoCard--infoHolder{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    
+}

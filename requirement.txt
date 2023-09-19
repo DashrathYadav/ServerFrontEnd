@@ -1,0 +1,5 @@
+# page showing what operations can perform --> 1) Fetch all servers
+                                              2) fetch server by id 
+                                              3) fetch server by name
+                                              4)update server by id
+                                              5) delete server by id.

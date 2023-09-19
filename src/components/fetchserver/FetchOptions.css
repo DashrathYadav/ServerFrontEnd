@@ -1,0 +1,38 @@
+.FetchOptions--container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    justify-content:center;
+    padding: 20px;
+    align-items: center;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+.FetchOptions--buttonsHolder{
+    display: flex;
+ 
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.FetchOptions--buttonsHolder >a {
+    margin: 20px;
+}
+.FetchOptions--button{
+    padding: 10px 20px;
+    font-size: medium;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;  
+}
+.FetchOptions--outlet{
+
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}

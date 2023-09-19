@@ -1,0 +1,10 @@
+.ServerInfoCards--container{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:80vw;
+    justify-content: center;
+    align-items: center;
+    
+}

@@ -1,0 +1,32 @@
+
+.AddServer--container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+
+.AddServer--AllInputs{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.AddServer--AllInputs input{
+    padding: 10px;
+   
+}
+.AddServer--AllInputs button{
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.error{
+    color: red;
+}

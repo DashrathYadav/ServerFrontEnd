@@ -1,0 +1,20 @@
+.FetchByName--input{
+  font-size: large;
+  padding: 5px;
+  width: 150px;
+    margin: 10px;
+}
+
+.FetchByName--button{
+    margin-left: 10px;
+    padding: 8px 14px;
+    font-size: medium ;
+}
+
+.FetchByName--outlet{
+    margin-top: 50px;
+}
+
+.error{
+    color: red;
+}

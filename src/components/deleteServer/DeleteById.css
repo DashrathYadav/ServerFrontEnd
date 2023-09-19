@@ -1,0 +1,20 @@
+.DeleteById--input{
+    font-size: large;
+    padding: 5px;
+    width: 100px;
+      margin: 10px;
+  }
+  
+  .DeleteById--button{
+      margin-left: 10px;
+      padding: 8px 14px;
+      font-size: medium ;
+  }
+  
+  .DeleteById--outlet{
+      margin-top: 50px;
+  }
+
+  .error{
+    color: red;
+  }

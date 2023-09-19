@@ -1,0 +1,33 @@
+// Import ECharts library
+import echarts from 'echarts';
+
+// Create a new ECharts instance
+const chart = echarts.init(document.getElementById('chart'));
+
+// Fetch data from URL
+fetch('https://example.com/data.json')
+  .then(response => response.json())
+  .then(data => {
+    // Create ECharts data object
+    const dataObject = {
+      type: 'bar',
+      data: data.data,
+      labels: data.labels,
+    };
+
+    // Render the chart
+    chart.setOption({
+      title: {
+        text: 'Bar Chart from URL',
+      },
+      xAxis: {
+        data: data.labels,
+      },
+      yAxis: {
+        type: 'value',
+      },
+      series: [{
+        data: data.data,
+      },],
+    });
+  });
