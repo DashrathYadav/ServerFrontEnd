@@ -1,8 +1,54 @@
 # React + Vite
+### React Application.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Server Management (FrontEnd)
 
-Currently, two official plugins are available:
+***
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+***
+
+
+
+
+
+## Features
+
+- Request for the all avilable Servers
+- Fetch Server
+    
+   - fetch by id
+   - fetch by name
+   - List all Servers
+    
+-  Request to Update servers,
+- Add serves ,
+- Delete servers.
+
+------------------------------------------------
+
+.
+.
+.
+------------------------------------------------
+## Screenshots
+#Fetch All Server
+
+.
+### Add Serve
+![App Screenshot](https://res.cloudinary.com/dxsbiobeg/image/upload/v1695475939/Servers%20Management/frontEnd_server_add_b1ejwm.gif)
+
+.
+### Delete Server By id
+![App Screenshot](https://res.cloudinary.com/dxsbiobeg/image/upload/v1695476189/Servers%20Management/frontEnd_delete_server_tiee97.gif)
+
+## Update Server
+![App Screenshot](https://res.cloudinary.com/dxsbiobeg/image/upload/v1695487840/Servers%20Management/Update_Server_n95lmt.png)
+
+.
+### All Server List
+![App Screenshot](https://res.cloudinary.com/dxsbiobeg/image/upload/v1695487411/Servers%20Management/ServerList_front_End_dt1sbe.png)
+
+
+
+
+
