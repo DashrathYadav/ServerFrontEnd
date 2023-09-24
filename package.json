@@ -2,7 +2,7 @@
   "name": "serverfrontend",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://DashrathYadav.github.io/serverfrontend/protfolio",
+  "homepage": "https://DashrathYadav.github.io/serverfrontend",
   "type": "module",
   "scripts": {
     "dev": "vite",
