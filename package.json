@@ -2,7 +2,6 @@
   "name": "serverfrontend",
   "private": false,
   "version": "0.0.0",
-  "homepage": "https://DashrathYadav.github.io/ServerFrontEnd",
   "type": "module",
   "scripts": {
     "dev": "vite",
