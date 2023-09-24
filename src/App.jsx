@@ -14,7 +14,6 @@ import FetchByName from "./components/fetchserver/byName/FetchByName";
 import AddServer from "./components/addServer/AddServer";
 import UpdatedServer from "./components/updateServer/UpdateServer";
 import DeleteById from "./components/deleteServer/DeleteById";
-
 /*
       (Root) /
             |---> /fetch server-|
@@ -30,7 +29,7 @@ import DeleteById from "./components/deleteServer/DeleteById";
 */
 
 const router = createHashRouter(
-  createRoutesFromElements(
+  createRoutesFromElements( 
     <Route    path="/*" element={<HomePage/>}>
       <Route path="ServerFrontEnd" element={<HomePage/>}></Route>
         <Route path="fetchServers" element={<FetchOptions />}>
@@ -57,12 +56,12 @@ const router = createHashRouter(
         <Route path="addServer" element={<AddServer/>}/>
         <Route path="updateServer" element={<UpdatedServer/>}/>
         <Route path="deleteServer" element={<DeleteById/>}/>
-    </Route>
+    </Route>,
   )
 );
 
 function App() {
-  return <RouterProvider router={router} />;
+  return <RouterProvider router={router}  />;
 }
 
 export default App;

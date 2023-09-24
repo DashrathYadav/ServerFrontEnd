@@ -1,3 +1,3 @@
 
 // server url
-export const backendurl="http://localhost:8080/Servers";
+export const backendurl="springbootrestapi-production-bf39.up.railway.app/Servers";
