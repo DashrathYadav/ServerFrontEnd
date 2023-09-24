@@ -1,7 +1,8 @@
 import {
   Route,
   RouterProvider,
-  createBrowserRouter,
+  createHashRouter,
+  // createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
 import HomePage from "./components/HomePage";
@@ -28,10 +29,10 @@ import DeleteById from "./components/deleteServer/DeleteById";
 
 */
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
-    <Route path="/ServerFrontEnd/">
-      <Route path="/ServerFrontEnd/" element={<HomePage />}>
+    <Route path="/">
+      <Route path="/" element={<HomePage />}>
         <Route path="fetchServers" element={<FetchOptions />}>
           <Route path="fetchAllServers" element={<ServerInfoCards/>}
           loader={fetchServerAllInfo}
