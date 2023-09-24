@@ -30,8 +30,8 @@ import DeleteById from "./components/deleteServer/DeleteById";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/ServerFrontEnd">
-      <Route path="/ServerFrontEnd" element={<HomePage />}>
+    <Route path="/ServerFrontEnd/">
+      <Route path="/ServerFrontEnd/" element={<HomePage />}>
         <Route path="fetchServers" element={<FetchOptions />}>
           <Route path="fetchAllServers" element={<ServerInfoCards/>}
           loader={fetchServerAllInfo}
