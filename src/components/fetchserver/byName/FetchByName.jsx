@@ -3,6 +3,8 @@ import "./FetchByName.css";
 
 import { Outlet, useNavigate } from "react-router-dom";
 
+// component that takes name of server to be search 
+// request for the list of server with user provided name
 function FetchByName() {
   const [serverName, setServerName] = useState("");
   const [errors,setErrors]=useState("");

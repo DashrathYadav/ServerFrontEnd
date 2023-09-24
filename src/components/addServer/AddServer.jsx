@@ -5,6 +5,8 @@ import { useNavigate } from "react-router-dom";
 function AddServer() {
     const navigate=useNavigate();
     const [errors,setErrors]=useState("");
+
+
   const [formData, setFormData] = useState({
     id: "",
     name: "",
@@ -20,6 +22,7 @@ function AddServer() {
     }));
   };
 
+  // function to request for add server
   const handleAddServer = async () => {
     if (
       formData.id &&

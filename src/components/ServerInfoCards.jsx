@@ -1,6 +1,8 @@
 import { useLoaderData } from "react-router-dom";
 import "./ServerInfoCards.css";
 import ServerInfoCard from "./ServerInfoCard";
+
+// Container that renders all the list of Server Card.
 function ServerInfoCards() {
   const serverData = useLoaderData();
   console.log("serverData", serverData);

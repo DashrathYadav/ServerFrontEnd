@@ -14,6 +14,20 @@ import AddServer from "./components/addServer/AddServer";
 import UpdatedServer from "./components/updateServer/UpdateServer";
 import DeleteById from "./components/deleteServer/DeleteById";
 
+/*
+      (Root) /
+            |---> /fetch server-|
+            |                   |---> /Fetch All Servers
+            |                   |---> /Fetch By Id
+            |                   |---> /Fetch by Name
+            |---> /Add Server
+            |
+            |---> /Update-Server
+            | 
+            |---> /Delete-Server
+
+*/
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/">

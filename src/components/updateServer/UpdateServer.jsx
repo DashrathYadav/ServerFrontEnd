@@ -6,6 +6,7 @@ function UpdatedServer() {
     const navigate=useNavigate();
     const [errors,setErrors]=useState("");
 
+    //holding server data through form value
   const [formData, setFormData] = useState({
     id: "",
     name: "",
@@ -13,6 +14,7 @@ function UpdatedServer() {
     framework: "",
   });
 
+  
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevFormData) => ({
@@ -21,6 +23,7 @@ function UpdatedServer() {
     }));
   };
 
+  //handling update server
   const handleupdateServer = async () => {
     if (
       formData.id 

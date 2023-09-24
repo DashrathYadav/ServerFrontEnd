@@ -4,6 +4,8 @@ import "./DeleteById.css";
 import { useNavigate } from "react-router-dom";
 import { backendurl } from "../../backendUrl";
 
+
+// component that take server id to be deleted and delete request to delete that server.
 function DeleteById() {
   const [serverId, setServerId] = useState("");
   const [errors,setErrors]=useState("");

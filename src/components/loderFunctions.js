@@ -1,5 +1,8 @@
 import { backendurl } from "../backendUrl";
 
+
+// fetch server by Id
+// return server object
 export const  fetchServerInfo= async ({params})=>{
 
     console.log("serverId",params.serverId);
@@ -12,6 +15,9 @@ export const  fetchServerInfo= async ({params})=>{
     
     return result;
 }
+
+// fectch All server.
+// returns list of servers.
 export const  fetchServerAllInfo= async ()=>{
 
 
@@ -23,6 +29,9 @@ export const  fetchServerAllInfo= async ()=>{
     
     return result;
 }
+
+// fecch server by name.
+// return list of servers.
 export const  fetchServerInfoByName= async ({params})=>{
 
     console.log("serverId",params.serverId);

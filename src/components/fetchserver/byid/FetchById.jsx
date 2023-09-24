@@ -3,6 +3,8 @@ import "./FetchById.css";
 
 import { Outlet, useNavigate } from "react-router-dom";
 
+
+// component that takes id and search for server 
 function FetchById() {
   const [serverId, setServerId] = useState("");
   const navigate = useNavigate();
@@ -31,6 +33,8 @@ function FetchById() {
         <button className="FetchById--button" onClick={handleSubmitId}>Search</button>
       </div>
       <div className="FetchById--outlet" >
+
+        {/* output /rendering child section route */}
       <Outlet/>
       </div>
     </div>
