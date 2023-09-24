@@ -1,6 +1,6 @@
 {
   "name": "serverfrontend",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "homepage": "https://DashrathYadav.github.io/ServerFrontEnd",
   "type": "module",
