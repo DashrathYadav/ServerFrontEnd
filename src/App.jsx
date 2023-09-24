@@ -31,8 +31,7 @@ import DeleteById from "./components/deleteServer/DeleteById";
 
 const router = createHashRouter(
   createRoutesFromElements(
-    <Route path="/" element={<HomePage/>}>
-      <Route path="/" element={<HomePage />}>
+    <Route    path="/*" element={<HomePage/>}>
         <Route path="fetchServers" element={<FetchOptions />}>
           <Route path="fetchAllServers" element={<ServerInfoCards/>}
           loader={fetchServerAllInfo}
@@ -57,7 +56,6 @@ const router = createHashRouter(
         <Route path="addServer" element={<AddServer/>}/>
         <Route path="updateServer" element={<UpdatedServer/>}/>
         <Route path="deleteServer" element={<DeleteById/>}/>
-      </Route>
     </Route>
   )
 );
