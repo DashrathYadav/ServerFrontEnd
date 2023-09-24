@@ -32,6 +32,7 @@ import DeleteById from "./components/deleteServer/DeleteById";
 const router = createHashRouter(
   createRoutesFromElements(
     <Route    path="/*" element={<HomePage/>}>
+      <Route path="ServerFrontEnd" element={<HomePage/>}></Route>
         <Route path="fetchServers" element={<FetchOptions />}>
           <Route path="fetchAllServers" element={<ServerInfoCards/>}
           loader={fetchServerAllInfo}
